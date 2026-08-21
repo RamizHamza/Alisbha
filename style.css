@@ -1601,16 +1601,3 @@ img, video {
         font-size: 11px;
     }
 }
-
-/* Reduce page height on mobile */
-@media (max-width: 600px) {
-    .container {
-        min-height: auto !important;
-        height: auto !important;
-    }
-
-    section {
-        min-height: auto !important;
-        height: auto !important;
-    }
-}
