@@ -33,6 +33,9 @@ const replayBtn = document.getElementById("replayBtn");
 
 const homeBtn = document.getElementById("homeBtn");
 
+const ContactBtn = document.getElementById("ContactBtn");
+
+
 window.scrollTo(0, 0);
 
 /* ==========================
