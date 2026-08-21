@@ -1729,3 +1729,66 @@ img, video {
         margin-top: 25px;
     }
 }
+
+/* ==========================
+   BIRTHDAY WISH - MOBILE FIX
+========================== */
+
+#letterPage .hero-card {
+    width: 100%;
+    max-width: 420px;
+    aspect-ratio: auto;
+    height: auto;
+    min-height: auto;
+    padding: 20px 15px;
+}
+
+#letterPage .letter-box {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: auto;
+    height: auto;
+    min-height: 0;
+    padding: 22px 18px;
+    margin: 0 auto;
+}
+
+#letterPage .letter-box p {
+    margin: 0;
+    font-size: clamp(14px, 3.8vw, 17px);
+    line-height: 1.75;
+}
+
+#letterPage #galleryBtn {
+    display: block;
+    width: min(300px, 90%);
+    margin: 25px auto 0;
+}
+
+@media (max-width: 600px) {
+
+    #letterPage .hero-card {
+        padding: 15px 10px 25px;
+    }
+
+    #letterPage .section-title {
+        font-size: clamp(22px, 6vw, 28px);
+        margin-bottom: 18px;
+    }
+
+    #letterPage .letter-box {
+        padding: 20px 16px;
+    }
+
+    #letterPage .letter-box p {
+        font-size: clamp(14px, 3.7vw, 16px);
+        line-height: 1.7;
+    }
+
+    #letterPage #galleryBtn {
+        width: min(300px, 90vw);
+        font-size: 16px;
+        padding: 14px 15px;
+        margin-top: 20px;
+    }
+   }
