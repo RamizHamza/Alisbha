@@ -886,8 +886,8 @@ footer{
 
 .gift-box{
 
-    width:280px;
-    height:280px;
+    width:200px;
+    height:200px;
 
     margin:0 auto;
 
@@ -921,9 +921,9 @@ footer{
 
 .gift-lid{
 
-    width:280px;
+    width:200px;
 
-    height:55px;
+    height:45px;
 
     background:linear-gradient(135deg,#7dd3fc,#38bdf8);
 
